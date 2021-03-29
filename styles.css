@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 13px;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+li button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    border-radius: 4px;
+    background-color: hsl(219,100%,53%);
+    color: white;
+}
+li button:hover {
+    background-color: hsl(216, 100%, 60%);
+}
+.google-img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
